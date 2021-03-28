@@ -10,13 +10,24 @@ body.cavendish-theme {
 }
 
 .cavendish-theme main {
-   background-color: #292929;
+    background-color: #292929;
+}
+
+.cavendish-theme main * {
+    color: #555;
 }
 
 .cavendish-theme footer {
-    background-color: #dd9910;
+    background-color: #dd9603;
 }
 
 .cavendish-theme .nav-menu-links li {
     border-color: #ccc;
+}
+
+.cavendish-theme main [class$='title'], .cavendish-theme main [class*='title']  {
+    color: #ffffff;
+}
+.cavendish-theme main [class$='subtitle'], .cavendish-theme main [class*='subtitle']  {
+    color: #aaa;
 }
