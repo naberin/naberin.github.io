@@ -166,6 +166,17 @@ main.hero {
         display: flex;
         flex-direction: column;
     }
+
+    .navbar .nav-menu-links li {
+        border-top-width: 1px;
+        border-top-style: solid;
+    }
+
+    .navbar .nav-menu-item {
+        margin: 2px 0;
+        padding-top: 12px;
+        padding-bottom: 5px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -182,6 +193,13 @@ main.hero {
         display: flex;
         flex-direction: row;
     }
+
+    .navbar .nav-menu-item:not(:first-child) {
+        margin-left: 12px;
+    }
+    .navbar .nav-menu-item:not(:last-child) {
+        margin-right: 12px;
+    }
 }
 
 .navbar {
@@ -189,6 +207,10 @@ main.hero {
 }
 
 .navbar .nav-menu-links li{
+    display: block;
+}
+
+.navbar .nav-menu-links li *{
     display: block;
 }
 

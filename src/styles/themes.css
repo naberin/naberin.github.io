@@ -16,3 +16,7 @@ body.cavendish-theme {
 .cavendish-theme footer {
     background-color: #dd9910;
 }
+
+.cavendish-theme .nav-menu-links li {
+    border-color: #ccc;
+}
