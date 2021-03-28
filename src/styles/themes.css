@@ -1,10 +1,18 @@
 .cavendish-theme {
 }
 
-body.cavendish-theme {
-    background-color: #d7cabd;
+.cavendish-theme *{
+    color: #292929;
 }
 
-main.cavendish-theme {
-    background-color: #292929;
+body.cavendish-theme {
+    background-color: #ddd;
+}
+
+.cavendish-theme main {
+   background-color: #292929;
+}
+
+.cavendish-theme footer {
+    background-color: #dd9910;
 }
