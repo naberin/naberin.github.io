@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Norman Aberin | My Personal Website</title>
     <link type="text/css" rel="stylesheet" href="src/styles/main.css">
     <link type="text/css" rel="stylesheet" href="src/styles/themes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body class="cavendish-theme flex flex-col">
-    <header class="navbar container">
-      <div class="flex flex-row flex-end flex-justify-space-between">
-        <div class="nav-title"><a href="index.html">Norman Aberin</div>
-        <ul class="nav-links flex flex-row flex-justify-end">
-          <li><a>About</a></li>
-          <li><a>Projects</a></li>
-          <li><a>Presets</a></li>
-        </ul>
+    <header>
+      <div class="container navbar">
+        <div class="nav-left flex flex-justify-space-between">
+          <a class="title" href="index.html">naberin</a>
+          <a href="javascript:void(0);" class="nav-menu-toggle" id="nav-menu-toggle"><i class="fa fa-bars"></i></a>
+        </div>
+        <div class="nav-right flex  flex-grow-1">
+          <ul class="nav-menu-links flex flex-row flex-justify-end" id="nav-menu-links">
+            <li class="nav-menu-item"><a href="" >About</a></li>
+            <li class="nav-menu-item"><a href="" >Projects</a></li>
+            <li class="nav-menu-item"><a href="" >Presets</a></li>
+          </ul>
+        </div>
+
       </div>
     </header>
-    <main class="hero container flex-grow-8">
+    <main class="hero container flex-grow-10">
     </main>
-  <footer class="container flex-grow-1">
-
-  </footer>
-
+    <script src="index.js" type="text/javascript"></script>
   </body>
 </html>
