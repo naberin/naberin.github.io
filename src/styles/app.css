@@ -1,0 +1,28 @@
+.navbar .title {
+    line-height: .8;
+    font-weight: bold;
+    font-size: 2em;
+}
+.navbar .nav-menu-links, .navbar .nav-menu-toggle {
+    padding-top: 2px;
+    font-size: 1.25em;
+}
+
+main.personal-board {
+    overflow: scroll;
+    margin-bottom: 70px;
+}
+
+main > *{
+    padding: 10px;
+}
+
+.big-title {
+    font-size: 3em;
+    font-weight: bold;
+}
+.sub-title {
+
+}
+
+

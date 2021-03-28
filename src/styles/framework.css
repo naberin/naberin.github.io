@@ -17,12 +17,22 @@ ul, ol {
     width: 100%;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 ul li, ol li {
     list-style: none;
 }
 
 div, main, header, footer, section {
     box-sizing: border-box;
+}
+
+.center {
+    text-align: center;
+    align-self: center;
 }
 
 .flex {
@@ -84,15 +94,6 @@ div, main, header, footer, section {
     flex-grow: 10;
 }
 
-main {
-    color: #dddddd;
-    overflow: scroll;
-}
-
-main.hero {
-    padding: 10px;
-    margin-bottom: 80px;
-}
 
 .container {
     margin: 0 auto;
@@ -202,8 +203,9 @@ main.hero {
     }
 }
 
-.navbar {
+.navbar, .container.navbar {
     padding-top: 18px;
+    margin-bottom: 10px;
 }
 
 .navbar .nav-menu-links li{
@@ -214,12 +216,6 @@ main.hero {
     display: block;
 }
 
-.navbar .title {
-    line-height: .8;
-    font-weight: bold;
-    font-size: 2em;
-}
-.navbar .nav-menu-links, .navbar .nav-menu-toggle {
-    padding-top: 2px;
-    font-size: 1.25em;
+footer {
+    width: 100%;
 }
