@@ -2,6 +2,10 @@ Vue.use(VueRouter);
 
 const routes = [
    { path: '/', component: Home },
+   { path: '/about', component: Home },
+   { path: '/projects', component: Home },
+   { path: '/skills', component: Home },
+   { path: '/themes', component: Home }
 ]
 
 const router = new VueRouter({
@@ -11,6 +15,7 @@ const router = new VueRouter({
 
 var app = new Vue({
    data: {
+      theme: "cavendish-theme",
       info: {
          firstname:        "Norman", 
          lastname:         "Aberin",
