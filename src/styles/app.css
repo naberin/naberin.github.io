@@ -1,9 +1,14 @@
-.navbar .title {
+#app {
+    height: 100%
+}
+
+.app-header .title {
     line-height: .8;
     font-weight: bold;
     font-size: 2em;
 }
-.navbar .nav-menu-links, .navbar .nav-menu-toggle {
+.app-header .nav-menu-links,
+.app-header .nav-menu-toggle {
     padding-top: 2px;
     font-size: 1.25em;
 }
@@ -11,10 +16,6 @@
 main.personal-board {
     overflow: scroll;
     margin-bottom: 70px;
-}
-
-main > *{
-    padding: 10px;
 }
 
 .big-title {
