@@ -7,10 +7,12 @@
     <link type="text/css" rel="stylesheet" href="src/styles/app.css">
     <link type="text/css" rel="stylesheet" href="src/styles/themes.css">
     <link type="text/css" rel="stylesheet" href="src/styles/framework.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   <body class="cavendish-theme flex flex-col">
-    <header>
+    <div id="personal-app">
+      <header>
       <div class="container navbar">
         <div class="nav-left flex flex-justify-space-between">
           <a class="title" href="index.html">naberin</a>
@@ -26,26 +28,28 @@
         </div>
 
       </div>
-    </header>
-    <main class="personal-board container flex flex-col flex-grow-10">
-      <div class="flex flex-col flex-grow-1">
-        <section class="hero flex flex-col flex-justify-center flex-grow-8">
-          <div class="flex flex-col">
-            <p class="big-title center">Norman Aberin</p>
-            <p class="subtitle center">CLOUD ENGINEER</p>
-          </div>
-        </section>
-        <section class="flex flex-row flex-grow-3">
-          <div id="projects-cards-list-preview" class="front-cards-list flex-grow-1">
-          </div>
-          <div id="skills-cards-list-preview" class="front-cards-list flex-grow-1">
-          </div>
-        </section>
+      </header>
+      <main class="personal-board container flex flex-col flex-grow-10">
+        <div class="flex flex-col flex-grow-1">
+          <section class="hero flex flex-col flex-justify-end flex-grow-2">
+            <div class="flex flex-col" v-cloak>
+              <p class="big-title center">{{ fullname.first }} <span class="lastname">{{ fullname.last }}</span></p>
+              <p class="subtitle center">Full-Stack Software Engineer</p>
+            </div>
+          </section>
+          <section class="flex flex-row flex-grow-3">
+            <div id="projects-cards-list-preview" class="front-cards-list flex-grow-1">
+            </div>
+            <div id="skills-cards-list-preview" class="front-cards-list flex-grow-1">
+            </div>
+          </section>
 
-      </div>
-      <footer class="flex flex-row"></footer>
-    </main>
-
+        </div>
+        <footer class="flex flex-row"></footer>
+      </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="src/scripts/loadInfo.js" type="text/javascript"></script>
     <script src="index.js" type="text/javascript"></script>
   </body>
 </html>
