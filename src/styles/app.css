@@ -1,3 +1,17 @@
 #app {
     height: 100%
 }
+
+#app .app-header {
+    padding-top: 19px;
+    padding-bottom: 9px;
+}
+
+#app .app-header .title .content {
+    font-weight: bold;
+}
+
+#app .app-header .title .content,
+#app .app-header .links .link-item {
+    margin: 9px;
+}
