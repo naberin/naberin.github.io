@@ -9,16 +9,3 @@
 #app.cavendish-theme footer {
     background-color: #dd9603;
 }
-
-#app.cavendish-theme .nav-menu-links li {
-    border-color: #ccc;
-}
-
-#app.cavendish-theme main [class$='title'],
-#app.cavendish-theme main [class*='title'] span.lastname,
-#app.cavendish-theme main [class*='title']  {
-    color: #ffffff;
-}
-#app.cavendish-theme main [class$='subtitle'], .cavendish-theme main [class*='subtitle']  {
-    color: #aaa;
-}
