@@ -94,8 +94,137 @@ div, main, header, footer, section {
     flex-grow: 10;
 }
 
-
 .container {
     margin: 0 auto;
 }
 
+@media screen and (max-width: 399px) {
+    .container {
+        width: 97%;
+    }
+
+    .flex.flex-row.flexible {
+        flex-direction: column;
+    }
+
+    .flex.flex-col.flexible {
+        flex-direction: row;
+    }
+    .sm-viewport-only {
+        display: inherit;
+    }
+}
+@media screen and (min-width: 400px) {
+    .container {
+        width: 95%;
+    }
+    .flex.flex-row.flexible {
+        flex-direction: column;
+    }
+
+    .flex.flex-col.flexible {
+        flex-direction: row;
+    }
+    .sm-viewport-only {
+        display: inherit;
+    }
+}
+
+
+@media screen and (min-width: 512px) {
+    .container {
+        width: 92%;
+    }
+    .flex.flex-row.flexible {
+        flex-direction: column;
+    }
+
+    .flex.flex-col.flexible {
+        flex-direction: row;
+    }
+    .sm-viewport-only {
+        display: inherit;
+    }
+
+}
+
+@media screen and (min-width: 764px) {
+    .container {
+        width: 89%;
+    }
+    .flex.flex-row.flexible {
+        flex-direction: row;
+    }
+
+    .flex.flex-col.flexible {
+        flex-direction: column;
+    }
+    .sm-viewport-only {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        width: 86%;
+    }
+    .flex.flex-row.flexible {
+        flex-direction: row;
+    }
+
+    .flex.flex-col.flexible {
+        flex-direction: column;
+    }
+    .sm-viewport-only {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 83%;
+    }
+    .flex.flex-row.flexible {
+        flex-direction: row;
+    }
+
+    .flex.flex-col.flexible {
+        flex-direction: column;
+    }
+    .sm-viewport-only {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .container {
+        width: 80%;
+    }
+    .flex.flex-row.flexible {
+        flex-direction: row;
+    }
+
+    .flex.flex-col.flexible {
+        flex-direction: column;
+    }
+    .sm-viewport-only {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .container {
+        width: 77%;
+    }
+    .flex.flex-row.flexible {
+        flex-direction: row;
+    }
+
+    .flex.flex-col.flexible {
+        flex-direction: column;
+    }
+    .sm-viewport-only {
+        display: none;
+    }
+}
