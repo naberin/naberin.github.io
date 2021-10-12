@@ -1,21 +1,22 @@
-var app = new Vue({
-   el: "#personal-app",
-   data: {
-      fullname: {first: "Norman", last: "Aberin"}
-   },
-   methods: {
-      setMenuToggleListener: function () {
-         let menuToggle = document.getElementById("nav-menu-toggle");
-         let menu = document.getElementById("nav-menu-links");
-      
-         menuToggle.addEventListener('click', function() {
-            menu.classList.toggle('menu-is-active');
-         });
-      }
-      
-   },
-   mounted() {
-      this.setMenuToggleListener();
-   }
+Vue.use(VueRouter);
 
+const routes = [
+   { path: '/', component: Home },
+]
+
+const router = new VueRouter({
+   mode: 'history',
+   routes
 })
+
+var app = new Vue({
+   data: {
+      info: {
+         firstname:        "Norman", 
+         lastname:         "Aberin",
+         handle:           "naberin"
+      }
+   },
+   router
+}).$mount("#app")
+
