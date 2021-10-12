@@ -25,7 +25,9 @@ body.cavendish-theme {
     border-color: #ccc;
 }
 
-.cavendish-theme main [class$='title'], .cavendish-theme main [class*='title']  {
+.cavendish-theme main [class$='title'],
+.cavendish-theme main [class*='title'] span.lastname,
+.cavendish-theme main [class*='title']  {
     color: #ffffff;
 }
 .cavendish-theme main [class$='subtitle'], .cavendish-theme main [class*='subtitle']  {

@@ -105,6 +105,11 @@ div, main, header, footer, section {
     body .container {
         width: 95%;
     }
+
+    .big-title {
+        width: 180px;
+    }
+
 }
 
 @media screen and (min-width: 400px) {
@@ -112,12 +117,20 @@ div, main, header, footer, section {
     body .container {
         width: 95%;
     }
+
+    .big-title {
+        width: 180px;
+    }
 }
 
 @media screen and (min-width: 600px) {
 
     body .container {
         width: 93%;
+    }
+
+    .big-title {
+        width: 360px;
     }
 }
 

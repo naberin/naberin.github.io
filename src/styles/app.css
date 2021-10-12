@@ -19,7 +19,13 @@ main > *{
 
 .big-title {
     font-size: 3em;
+    border-bottom: 2px solid #dd9603;
+}
+
+.lastname {
     font-weight: bold;
 }
 
-
+.subtitle {
+    padding-top: 9px;
+}
