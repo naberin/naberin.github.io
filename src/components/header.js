@@ -5,7 +5,7 @@ Vue.component('app-header', {
     template: `
     <header class="app-header flex flex-row flex-justify-space-between container">
         <div class="title app-button"><router-link to="/">{{title}}</router-link></div>
-        <button class="app-button">Contact</button>
+        <app-navigation></app-navigation>
     </header>
     `
 });

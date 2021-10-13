@@ -28,6 +28,8 @@
 
 #app .app-header .title,
 #app .app-header button.app-button,
+#app .app-navigation .icon,
+#app .app-navigation .title,
 #app .buttons-listing .app-button {
     margin: 9px;
 }
@@ -72,6 +74,7 @@
 }
 
 #app .app-hero .current,
+#app .app-navigation .icon,
 #app .app-about .summary {
     font-size: 1.1em;
 }
@@ -83,36 +86,9 @@
     text-align: left;
 }
 
-#app .buttons-listing .app-button {
-    border-radius: 4px;
-    padding: 4px 9px;
-}
 
-#app .app-navigation {
-    margin-top: 40px;
-}
-
-#app .app-navigation .icon,
 #app .app-navigation .title {
-    font-weight: lighter;
-    text-align: center;
-}
-#app .app-navigation .icon {
-    margin-bottom: 4px;
-    font-size: 2.8em;
-}
-#app .app-navigation .app-button {
-    margin: 0 19px;
+    margin-left: 2px;
+    line-height: 1.48;
 }
 
-@media screen and (max-width: 512px) {
-    #app .app-navigation .icon {
-        font-size: 1.4em;
-    }
-    #app .app-navigation .app-button {
-        margin: 0 19px;
-    }
-    #app .app-navigation .app-button {
-        margin: 19px;
-    }
-}
