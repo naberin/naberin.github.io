@@ -21,7 +21,8 @@ var app = new Vue({
          handle:           "naberin",
          jobTitle:         "Full Stack Software Engineer",
          company:          "Oracle",
-         description:      "I am"
+         description:      `I am a Software Engineer with a strong interest and experience in <strong>Cloud Native development.</strong> 
+            I am currently aiming to further my knowledge and hone my full-stack skills. I also like to focus on and learn from people about software design, reliability and user-experience. I am versatile, open-minded and a good team player.`
       }
    },
    router

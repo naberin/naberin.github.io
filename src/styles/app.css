@@ -18,6 +18,8 @@
 #app .app-header .title {
     font-family: 'Times', sans-serif;
     font-weight: bold;
+    font-size: 1.2em;
+    line-height: .9;
 }
 #app .app-header .title:hover {
     cursor: pointer;
@@ -29,9 +31,10 @@
 }
 
 #app .app-hero {
-    margin: 128px auto;
+    margin: 128px auto 36px auto;
 }
 
+#app .app-about .summary,
 #app .app-hero .current,
 #app .app-header button.app-button {
     border: none;
@@ -59,6 +62,13 @@
     padding-bottom: 4px;
 }
 
+#app .app-hero .current,
+#app .app-about .summary {
+    font-size: 1.1em;
+}
+
 #app .app-about .summary {
     padding: 24px;
+    max-width: 650px;
+    font-weight: lighter;
 }
