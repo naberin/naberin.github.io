@@ -18,7 +18,10 @@ var app = new Vue({
       info: {
          firstname:        "Norman", 
          lastname:         "Aberin",
-         handle:           "naberin"
+         handle:           "naberin",
+         jobTitle:         "Full Stack Software Engineer",
+         company:          "Oracle",
+         description:      "I am"
       }
    },
    router

@@ -16,3 +16,8 @@
 #app.cavendish-theme footer {
     background-color: #dd9603;
 }
+
+#app.cavendish-theme .app-hero .title .name {
+    border-bottom-color: #dd9603;
+}
+

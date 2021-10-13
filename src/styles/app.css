@@ -27,8 +27,34 @@
 #app .app-header button.app-button {
     margin: 9px;
 }
+
+#app .app-hero {
+    margin: 128px auto;
+}
+
+#app .app-hero .current,
 #app .app-header button.app-button {
     border: none;
     font-size: inherit;
     font-family: 'Roboto Light', sans-serif;
+}
+
+#app .app-hero .title {
+    font-family: 'Times', sans-serif;
+    font-weight: bolder;
+    font-size: 3.6em;
+}
+#app .app-hero .title .name {
+    display: inline-block;
+    border-bottom-width: 28px;
+    border-bottom-style: solid;
+}
+
+#app .app-hero .current {
+    margin: 7px auto;
+    max-width: 388px;
+}
+#app .app-hero .current span{
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
