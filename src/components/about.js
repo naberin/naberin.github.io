@@ -5,9 +5,9 @@ Vue.component('app-about', {
     template: `
     <div class="app-about">
         <div class="summary container">
-            <div class="">
+            <div class="flex flex-col">
                 <span v-html="info.description"></span>
-                           
+                <span class="hobbies">{{ info.hobbies }}</span>
             </div>
         </div>
     </div>

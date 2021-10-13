@@ -71,4 +71,10 @@
     padding: 24px;
     max-width: 650px;
     font-weight: lighter;
+    text-align: left;
+}
+
+#app .buttons-listing,
+#app .app-about .summary .hobbies {
+    margin-top: 19px;
 }
