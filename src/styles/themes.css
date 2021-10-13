@@ -4,7 +4,7 @@
 
 #app .app-navigation .app-button:hover,
 #app .app-navigation .app-button:active,
-#app .app-navigation .app-button.router-link-active,
+#app .app-navigation .app-button.router-link-exact-active,
 #app.cavendish-theme .app-header button.app-button,
 #app.cavendish-theme .app-about .summary,
 #app.cavendish-theme {

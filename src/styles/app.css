@@ -104,3 +104,15 @@
 #app .app-navigation .app-button {
     margin: 0 19px;
 }
+
+@media screen and (max-width: 512px) {
+    #app .app-navigation .icon {
+        font-size: 1.4em;
+    }
+    #app .app-navigation .app-button {
+        margin: 0 19px;
+    }
+    #app .app-navigation .app-button {
+        margin: 19px;
+    }
+}
