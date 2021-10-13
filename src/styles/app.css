@@ -42,10 +42,10 @@
     margin: 0 auto;
 }
 
+#app .app-navigation .title,
 #app .app-about .summary,
 #app .app-hero .current,
-#app .app-header button.app-button,
-#app .buttons-listing .app-button {
+#app .app-header button.app-button {
     border: none;
     font-size: inherit;
     font-family: 'Roboto Light', sans-serif;
@@ -83,13 +83,24 @@
     text-align: left;
 }
 
-#app .buttons-listing,
-#app .app-about .summary .hobbies {
-    margin-top: 19px;
-}
-
 #app .buttons-listing .app-button {
     border-radius: 4px;
     padding: 4px 9px;
 }
 
+#app .app-navigation {
+    margin-top: 40px;
+}
+
+#app .app-navigation .icon,
+#app .app-navigation .title {
+    font-weight: lighter;
+    text-align: center;
+}
+#app .app-navigation .icon {
+    margin-bottom: 4px;
+    font-size: 2.8em;
+}
+#app .app-navigation .app-button {
+    margin: 0 19px;
+}

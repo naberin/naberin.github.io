@@ -1,7 +1,18 @@
+#app .app-hero .title .name {
+    color: #fff;
+}
+
+#app .app-navigation .app-button:hover,
+#app .app-navigation .app-button:active,
+#app .app-navigation .app-button.router-link-active,
 #app.cavendish-theme .app-header button.app-button,
 #app.cavendish-theme .app-about .summary,
 #app.cavendish-theme {
     color: #e0d1bf;
+}
+
+#app .app-navigation .app-button {
+    color: #8a8377;
 }
 
 #app.cavendish-theme .app-header button.app-button,
