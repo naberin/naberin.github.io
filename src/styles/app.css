@@ -2,16 +2,33 @@
     height: 100%
 }
 
+#app .app-button:hover {
+    cursor: pointer;
+}
+#app .app-button:active {
+    position: relative;
+    top: 2px;
+}
+
 #app .app-header {
     padding-top: 19px;
     padding-bottom: 9px;
 }
 
-#app .app-header .title .content {
+#app .app-header .title {
+    font-family: 'Times', sans-serif;
     font-weight: bold;
 }
+#app .app-header .title:hover {
+    cursor: pointer;
+}
 
-#app .app-header .title .content,
-#app .app-header .links .link-item {
+#app .app-header .title,
+#app .app-header button.app-button {
     margin: 9px;
+}
+#app .app-header button.app-button {
+    border: none;
+    font-size: inherit;
+    font-family: 'Roboto Light', sans-serif;
 }

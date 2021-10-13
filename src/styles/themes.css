@@ -1,10 +1,17 @@
+#app .app-header button.app-button,
 #app.cavendish-theme {
-    background-color: #e0d1bf;
+    color: #e0d1bf;
 }
 
-#app.cavendish-theme *{
+#app .app-header button.app-button,
+#app.cavendish-theme {
+    background-color: #292929;
+}
+#app.cavendish-theme .app-about .summary {
     color: #292929;
 }
+
+
 
 #app.cavendish-theme footer {
     background-color: #dd9603;
