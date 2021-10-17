@@ -16,6 +16,7 @@
     padding-bottom: 9px;
 }
 
+#app .app-themes .message .theme-count,
 #app .app-header .title {
     font-family: 'Times', sans-serif;
     font-weight: bold;
@@ -38,7 +39,8 @@
     padding-bottom: 45px;
 }
 
-#app .app-hero {
+#app .app-hero,
+#app .app-themes {
     padding-top: 96px;
     padding-bottom: 36px;
     margin: 0 auto;
@@ -47,13 +49,17 @@
 #app .app-navigation .title,
 #app .app-about .summary,
 #app .app-hero .current,
-#app .app-header button.app-button {
+#app .app-header button.app-button,
+#app .app-themes .message,
+#app .app-themes .themes-list 
+ {
     border: none;
     font-size: inherit;
     font-family: 'Roboto Light', sans-serif;
 }
 
-#app .app-hero .title {
+#app .app-hero .title,
+#app .app-themes .title {
     font-family: 'Times', sans-serif;
     font-weight: bolder;
     font-size: 3.6em;
@@ -90,5 +96,32 @@
 #app .app-navigation .title {
     margin-left: 2px;
     line-height: 1.48;
+}
+
+#app .app-themes .themes-list {
+
+    margin: 19px auto;
+    width: 100%;
+    max-width: 388px;
+}
+#app .app-themes .themes-list .theme {
+    text-align: left;
+    width: 100%;
+    padding: 4px 19px;
+}
+
+#app .app-themes .themes-list .theme:not(:last-child) {
+    margin-bottom: 9px;
+}
+#app .app-themes .themes-list .theme .color {
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 4px 8px;
+    margin-right: 9px;
+}
+
+#app .app-themes .themes-list .theme:hover {
+    cursor: pointer;
 }
 

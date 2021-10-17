@@ -36,7 +36,7 @@ var app = new Vue({
       }
    },
    methods: {
-      setTheme: (theme) => {
+      setTheme: function(theme) {
          this.theme = theme;
       }
    },

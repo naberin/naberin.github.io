@@ -1,4 +1,7 @@
-#app.cavendish-theme .app-hero .title .name {
+#app.cavendish-theme .app-themes .message .theme-count,
+#app.cavendish-theme .app-hero .title .name,
+#app.cavendish-theme .app-themes .title,
+#app.cavendish-theme .app-themes .themes-list .theme:hover {
     color: #fff;
 }
 
@@ -18,6 +21,9 @@
 #app.cavendish-theme .app-header button.app-button,
 #app.cavendish-theme {
     background-color: #292929;
+}
+#app.cavendish-theme  .app-themes .themes-list .theme .color {
+    border-color: #292929;
 }
 
 #app.cavendish-theme footer {
