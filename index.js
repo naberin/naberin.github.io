@@ -2,10 +2,10 @@ Vue.use(VueRouter);
 
 const routes = [
    { path: '/', component: Home, name: 'home'},
-   { path: '/interests', component: Home, name: 'interests'},
-   { path: '/projects', component: Home, name: 'projects'},
+   { path: '/interests', component: Interests, name: 'interests'},
+   { path: '/projects', component: Projects, name: 'projects'},
    { path: '/skills', component: Skills, name: 'skills'},
-   { path: '/themes', component: Home, name: 'themes'}
+   { path: '/themes', component: Themes, name: 'themes'}
 ]
 
 const router = new VueRouter({
