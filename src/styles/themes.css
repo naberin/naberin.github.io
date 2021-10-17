@@ -38,3 +38,91 @@
     background-color: #813aef;
 }
 
+/*
+    polar bear theme
+*/
+
+#app.polar-bear-theme .app-themes .message .theme-count,
+#app.polar-bear-theme .app-hero .title .name,
+#app.polar-bear-theme .app-themes .title,
+#app.polar-bear-theme .app-themes .themes-list .theme:hover {
+    color: #292929;
+}
+
+#app.polar-bear-theme .app-navigation .app-button:hover,
+#app.polar-bear-theme .app-navigation .app-button:active,
+#app.polar-bear-theme .app-navigation .app-button.router-link-exact-active,
+#app.polar-bear-theme .app-header button.app-button,
+#app.polar-bear-theme .app-about .summary,
+#app.polar-bear-theme {
+    color: #030303;
+}
+
+#app.polar-bear-theme .app-navigation .app-button {
+    color: #769093;
+}
+
+#app.polar-bear-theme .app-header button.app-button,
+#app.polar-bear-theme {
+    background-color: #fff;
+}
+#app.polar-bear-theme  .app-themes .themes-list .theme .color {
+    border-color: #292929;
+}
+
+#app.polar-bear-theme footer {
+    background-color: #dd9603;
+}
+
+#app.polar-bear-theme .app-hero .title .name {
+    border-bottom-color: #292929;
+}
+
+#app.polar-bear-theme .buttons-listing .app-button {
+    background-color: #813aef;
+}
+
+
+/*
+    amethyst theme
+*/
+
+#app.amethyst-theme .app-themes .message .theme-count,
+#app.amethyst-theme .app-hero .title .name,
+#app.amethyst-theme .app-themes .title,
+#app.amethyst-theme .app-themes .themes-list .theme:hover {
+    color: #ddd;
+}
+
+#app.amethyst-theme .app-navigation .app-button:hover,
+#app.amethyst-theme .app-navigation .app-button:active,
+#app.amethyst-theme .app-navigation .app-button.router-link-exact-active,
+#app.amethyst-theme .app-header button.app-button,
+#app.amethyst-theme .app-about .summary,
+#app.amethyst-theme {
+    color: #bda9f6;
+}
+
+#app.amethyst-theme .app-navigation .app-button {
+    color: #8b4afc;
+}
+
+#app.amethyst-theme .app-header button.app-button,
+#app.amethyst-theme {
+    background-color: #25008d;
+}
+#app.amethyst-theme  .app-themes .themes-list .theme .color {
+    border-color: #292929;
+}
+
+#app.amethyst-theme footer {
+    background-color: #dd9603;
+}
+
+#app.amethyst-theme .app-hero .title .name {
+    border-bottom-color: #6200ff;
+}
+
+#app.amethyst-theme .buttons-listing .app-button {
+    background-color: #dd9603;
+}
