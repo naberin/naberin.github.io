@@ -16,7 +16,7 @@
     <app-header class="flex-grow-1" :title="info.handle"></app-header>
 
     <main class="app-main flex-grow-9">
-      <router-view :info="info"></router-view>
+      <router-view :info="info" :theme="theme" @set-theme="setTheme"></router-view>
     </main>
 
   </div>

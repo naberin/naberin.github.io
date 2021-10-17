@@ -35,6 +35,11 @@ var app = new Vue({
          }
       }
    },
+   methods: {
+      setTheme: (theme) => {
+         this.theme = theme;
+      }
+   },
    router
 }).$mount("#app")
 
