@@ -1,17 +1,17 @@
-#app .app-hero .title .name {
+#app.cavendish-theme .app-hero .title .name {
     color: #fff;
 }
 
-#app .app-navigation .app-button:hover,
-#app .app-navigation .app-button:active,
-#app .app-navigation .app-button.router-link-exact-active,
+#app.cavendish-theme .app-navigation .app-button:hover,
+#app.cavendish-theme .app-navigation .app-button:active,
+#app.cavendish-theme .app-navigation .app-button.router-link-exact-active,
 #app.cavendish-theme .app-header button.app-button,
 #app.cavendish-theme .app-about .summary,
 #app.cavendish-theme {
     color: #e0d1bf;
 }
 
-#app .app-navigation .app-button {
+#app.cavendish-theme .app-navigation .app-button {
     color: #8a8377;
 }
 
@@ -28,7 +28,7 @@
     border-bottom-color: #dd9603;
 }
 
-#app .buttons-listing .app-button {
+#app.cavendish-theme .buttons-listing .app-button {
     background-color: #813aef;
 }
 
