@@ -1,3 +1,4 @@
+
 #app {
     height: 100%;
     overflow: scroll;
@@ -16,6 +17,7 @@
     padding-bottom: 9px;
 }
 
+#app .contact-links,
 #app .app-themes .message .theme-count,
 #app .app-header .title {
     font-family: 'Times', sans-serif;
@@ -51,16 +53,25 @@
 #app .app-hero .current,
 #app .app-header button.app-button,
 #app .app-themes .message,
-#app .app-themes .themes-list 
- {
+#app .app-themes .themes-list,
+#app .app-projects .message .title,
+#app .app-projects .projects-form input,
+#app .app-projects .projects-form textarea
+{
     border: none;
     font-size: inherit;
     font-family: 'Roboto Light', sans-serif;
 }
 
 #app .app-hero .title,
-#app .app-themes .title {
+#app .app-themes .title,
+#app .app-projects .projects-form .message {
     font-family: 'Times', sans-serif;
+}
+
+
+#app .app-hero .title,
+#app .app-themes .title {
     font-weight: bolder;
     font-size: 3.6em;
 }
@@ -128,7 +139,6 @@
 #app .window {
     border-radius: 9px;
     margin-top: 14px;
-    min-height: 200px;
     border-style: solid;
     border-width: 1px;
 }
@@ -143,3 +153,32 @@
     margin-right: 5px;
 }
 
+#app .app-projects .projects-form {
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+#app .app-projects .projects-form .form-controls,
+#app .app-projects .projects-form .message{
+    max-width: 250px;
+    width: 100%;
+}
+
+#app .app-projects .projects-form .message .title {
+    font-size: 2.1em;
+    font-weight: bolder;
+    width: max-content;
+}
+#app .app-projects .projects-form .message .description {
+    margin-top: 12px;
+    text-wrap: normal;
+    margin-left: 2px;
+}
+
+#app .app-projects .projects-form .form-controls  {
+    padding-top: 19px;
+}
+
+#app .app-projects .projects-form .form-controls > *:not(:last-child) {
+    margin-bottom: 9px;
+}
