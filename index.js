@@ -15,6 +15,7 @@ const router = new VueRouter({
 var app = new Vue({
    data: {
       theme: "cavendish-theme",
+      projects: [],
       info: {
          firstname:        "Norman", 
          lastname:         "Aberin",
@@ -32,12 +33,15 @@ var app = new Vue({
             "DevOps":      [],
             "Cloud":       [],
             "Other":       []
-         }
+         },
       }
    },
    methods: {
       setTheme: function(theme) {
          this.theme = theme;
+      },
+      addProject: function(project) {
+         this.projects.push(project);
       }
    },
    router
