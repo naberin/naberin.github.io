@@ -8,7 +8,7 @@ Vue.component('mac-window', {
             <div id="minimize" class="button"></div>
             <div id="fullscreen" class="button"></div>
         </div>
-        <div class="content">
+        <div class="content flex-grow-9">
             <slot></slot>
         </div>
     </div>

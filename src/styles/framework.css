@@ -30,6 +30,21 @@ div, main, header, footer, section {
     box-sizing: border-box;
 }
 
+textarea {
+    resize: vertical;
+    min-height: 90px;
+}
+
+input, textarea, button {
+    border: none;
+    border-radius: 4px;
+    padding: 14px 9px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 .center {
     text-align: center;
     align-self: center;
@@ -102,6 +117,7 @@ div, main, header, footer, section {
     flex-grow: 10;
 }
 
+div.centered,
 .container {
     margin: 0 auto;
 }
