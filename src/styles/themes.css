@@ -38,9 +38,16 @@
     background-color: #813aef;
 }
 
-/*
-    polar bear theme
-*/
+#app.cavendish-theme .window {
+    border-color: #494949;
+}
+#app.cavendish-theme .window {
+    box-shadow: 0 2px 5px #000;
+}
+
+    /*
+        polar bear theme
+    */
 
 #app.polar-bear-theme .app-themes .message .theme-count,
 #app.polar-bear-theme .app-hero .title .name,
@@ -57,6 +64,12 @@
 #app.polar-bear-theme {
     color: #030303;
 }
+#app.polar-bear-theme  .app-themes .themes-list .theme .color {
+    border-color: #292929;
+}
+#app.polar-bear-theme .app-hero .title .name {
+    border-bottom-color: #292929;
+}
 
 #app.polar-bear-theme .app-navigation .app-button {
     color: #769093;
@@ -66,20 +79,19 @@
 #app.polar-bear-theme {
     background-color: #fff;
 }
-#app.polar-bear-theme  .app-themes .themes-list .theme .color {
-    border-color: #292929;
-}
 
 #app.polar-bear-theme footer {
     background-color: #dd9603;
 }
 
-#app.polar-bear-theme .app-hero .title .name {
-    border-bottom-color: #292929;
-}
-
 #app.polar-bear-theme .buttons-listing .app-button {
     background-color: #813aef;
+}
+#app.polar-bear-theme .window {
+    border-color: #ddd;
+}
+#app.polar-bear-theme .window {
+    box-shadow: 0 2px 5px #ddd;
 }
 
 
@@ -122,7 +134,25 @@
 #app.amethyst-theme .app-hero .title .name {
     border-bottom-color: #6200ff;
 }
+#app.amethyst-theme .window {
+    border-color: #6200ff;
+}
 
 #app.amethyst-theme .buttons-listing .app-button {
     background-color: #dd9603;
+}
+
+#app.amethyst-theme .window {
+    box-shadow: 0 2px 5px #0e0036;
+}
+
+/* Common Styles across themes */
+#app .window .titlebar #close.button {
+    background-color: #fd4c4c;
+}
+#app .window .titlebar #minimize.button {
+    background-color: #efa508;
+}
+#app .window .titlebar #fullscreen.button {
+    background-color: #55b208;
 }

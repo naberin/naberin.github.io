@@ -67,6 +67,10 @@ div, main, header, footer, section {
     align-items: flex-end;
 }
 
+.flex.flex-justify-start {
+    justify-content: flex-start;
+}
+
 .flex-grow-1 {
     flex-grow: 1;
 }
