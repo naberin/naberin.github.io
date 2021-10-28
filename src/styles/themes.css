@@ -42,8 +42,8 @@
     border-bottom-color: #dd9603;
 }
 
-#app .app-projects .projects-form .form-controls input,
-#app .app-projects .projects-form .form-controls textarea {
+#app.cavendish-theme .app-projects .projects-form .form-controls input,
+#app.cavendish-theme .app-projects .projects-form .form-controls textarea {
     background-color: #fab42b;
 }
 
