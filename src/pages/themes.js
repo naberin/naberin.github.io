@@ -16,7 +16,6 @@ let Themes = Vue.component('Themes', {
     },
     methods: {
         setTheme(selection) {
-            console.log('themes', selection);
             this.$emit('set-theme', selection)
         }
     },
