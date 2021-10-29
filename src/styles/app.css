@@ -54,6 +54,7 @@
 #app .app-header button.app-button,
 #app .app-themes .message,
 #app .app-themes .themes-list,
+#app .app-projects .unavailable
 {
     border: none;
     font-size: inherit;

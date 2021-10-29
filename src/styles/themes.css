@@ -1,8 +1,7 @@
 #app.cavendish-theme .app-themes .message .theme-count,
 #app.cavendish-theme .app-hero .title .name,
 #app.cavendish-theme .app-themes .title,
-#app.cavendish-theme .app-themes .themes-list .theme:hover,
-#app.cavendish-theme .app-projects .projects-form .message .title {
+#app.cavendish-theme .app-themes .themes-list .theme:hover {
     color: #fff;
 }
 
@@ -29,11 +28,7 @@
 #app.cavendish-theme  .app-themes .themes-list .theme .color {
     border-color: #292929;
 }
-#app.cavendish-theme .app-projects .projects-form .message .description {
-    color: #000;
-}
 
-#app.cavendish-theme .app-projects .list-app,
 #app.cavendish-theme footer {
     background-color: #dd9603;
 }
@@ -41,12 +36,6 @@
 #app.cavendish-theme .app-hero .title .name {
     border-bottom-color: #dd9603;
 }
-
-#app.cavendish-theme .app-projects .projects-form .form-controls input,
-#app.cavendish-theme .app-projects .projects-form .form-controls textarea {
-    background-color: #fab42b;
-}
-
 
 #app.cavendish-theme .buttons-listing .app-button {
     background-color: #813aef;
