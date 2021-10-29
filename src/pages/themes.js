@@ -10,7 +10,8 @@ let Themes = Vue.component('Themes', {
             themes: [
                 {name:"polar-bear", value:"polar-bear-theme", color: "#ffffff"},
                 {name:"cavendish", value:"cavendish-theme", color: "#dd9603"},
-                {name:"amethyst", value:"amethyst-theme", color: "#8256f3"}
+                {name:"amethyst", value:"amethyst-theme", color: "#8256f3"},
+                {name: "winter-spruce", value: "winter-spruce-theme", color: "#314847"}
             ]
         }
     },

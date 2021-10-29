@@ -12,3 +12,5 @@ Note: You can get to the Themes page by clicking on the Palette navigation item.
 ![#dd9603](https://via.placeholder.com/15/dd9603/000000?text=+) `Cavendish` __(default__)
 
 ![#8256f3](https://via.placeholder.com/15/8256f3/000000?text=+) `Amethyst`
+
+![#314847](https://via.placeholder.com/15/314847/000000?text=+) `Winter-Spruce`

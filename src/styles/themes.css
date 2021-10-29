@@ -154,6 +154,59 @@
     box-shadow: 0 2px 5px #0e0036;
 }
 
+    /* Winter Spruce */
+
+
+#app.winter-spruce-theme .app-themes .message .theme-count,
+#app.winter-spruce-theme .app-hero .title .name,
+#app.winter-spruce-theme .app-themes .title,
+#app.winter-spruce-theme .app-themes .themes-list .theme:hover,
+#app.winter-spruce-theme .app-skills .skills-container .category {
+    color: #ddd;
+}
+
+#app.winter-spruce-theme .app-navigation .app-button:hover,
+#app.winter-spruce-theme .app-navigation .app-button:active,
+#app.winter-spruce-theme .app-navigation .app-button.router-link-exact-active,
+#app.winter-spruce-theme .app-header button.app-button,
+#app.winter-spruce-theme .app-about .summary,
+#app.winter-spruce-theme {
+    color: #a6a090;
+}
+#app.winter-spruce-theme button {
+    background-color: #e0d1bf;
+}
+
+#app.winter-spruce-theme .app-navigation .app-button {
+    color: #7f9021;
+}
+
+#app.winter-spruce-theme .app-header button.app-button,
+#app.winter-spruce-theme {
+    background: linear-gradient(to bottom right, #314847, #264a54);
+}
+#app.winter-spruce-theme  .app-themes .themes-list .theme .color {
+    border-color: #292929;
+}
+
+#app.winter-spruce-theme .app-skills .marker,
+#app.winter-spruce-theme footer {
+    background-color: #fff;
+}
+
+#app.winter-spruce-theme .buttons-listing .app-button {
+    background-color: #813aef;
+}
+
+#app.winter-spruce-theme .app-hero .title .name,
+#app.winter-spruce-theme .app-skills .skills-container,
+#app.winter-spruce-theme .window {
+    border-color: #cbb98f;
+}
+#app.winter-spruce-theme .window {
+    box-shadow: 0 2px 5px #292929;
+}
+
 /* Common Styles across themes */
 #app .window .titlebar #close.button {
     background-color: #fd4c4c;
