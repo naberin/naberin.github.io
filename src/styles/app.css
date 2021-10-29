@@ -64,7 +64,9 @@
 #app .app-header button.app-button,
 #app .app-themes .message,
 #app .app-themes .themes-list,
-#app .app-projects .unavailable
+#app .app-projects .unavailable,
+#app .app-skills .skills-container .category,
+#app .app-skills .skills-container .skill
 {
     border: none;
     font-size: inherit;
@@ -149,13 +151,18 @@
     border-style: solid;
     border-width: 1px;
 }
+
 #app .window .titlebar {
     padding: 7px;
 }
+
+#app .app-skills .marker,
 #app .window .titlebar .button {
     border-radius: 50%;
     padding: 5px;
+    width: 0;
 }
+
 #app .window .titlebar .button:not(:last-child) {
     margin-right: 5px;
 }
@@ -163,4 +170,34 @@
 #app .app-projects .unavailable {
     padding-top: 39px;
     padding-bottom: 39px;
+}
+
+
+#app .app-skills .skills-container {
+    border-top-width: 1px;
+    border-top-style: solid;
+    width: 100%;
+}
+
+#app .app-skills .skills-container .marker {
+    position: relative;
+    top: -3px;
+}
+
+#app .app-skills .skills-container .category {
+    margin-top: 9px;
+    margin-bottom: 19px;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    font-size: .9em;
+    font-weight: bolder;
+}
+
+#app .app-skills .skills-container .skill {
+    font-family: 'Roboto Light', sans-serif;
+    font-weight: lighter;
+}
+
+#app .app-skills .skills-container .skill {
+    padding: 4px;
 }

@@ -117,6 +117,15 @@ button:hover {
     flex-grow: 10;
 }
 
+.col-2 {
+    width: 20%;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+span.centered,
 div.centered,
 .container {
     margin: 0 auto;
