@@ -26,12 +26,11 @@ var app = new Vue({
             In my projects, I focus and seek to learn more about good software design, reliability and user-experience. 
             I am versatile, open-minded and a good team player.`,
          skills:           {
-            "Languages":   [],
-            "Frontend":    [],
-            "Backend":     [],
-            "DevOps":      [],
-            "Cloud":       [],
-            "Other":       []
+            "Languages":   ["Java", "Python", "Javascript", "HTML", "CSS"],
+            "Frontend":    ["Vue.js", "React.js"],
+            "Backend & DB":     ["Node.js", "Flask", "Oracle SQL", "PL/SQL"],
+            "DevOps":      ["Terraform", "Github Actions", "Docker"],
+            "Cloud":       ["Oracle Cloud", "Oracle APEX"]
          },
       }
    },
