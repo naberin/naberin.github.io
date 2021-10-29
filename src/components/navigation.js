@@ -10,7 +10,6 @@ Vue.component('app-navigation', {
                 {id: 1, path: 'home', name: "Home", icon: `<i class="fas fa-home"></i>`, to: "/"},
                 {id: 2, path: 'projects', name: "My Projects", icon: `<i class="fas fa-shapes"></i>`, to: "/projects"},
                 {id: 3, path: 'skills', name: "My Skills", icon: `<i class="fab fa-js-square"></i>`, to: "/skills"},
-                {id: 4, path: 'interests', name: "Interests", icon: `<i class="fas fa-star"></i>`, to: "/interests"},
                 {id: 5, path: 'themes', name: "Themes", icon: `<i class="fas fa-palette"></i>`, to: "/themes"}
             ]
         }
