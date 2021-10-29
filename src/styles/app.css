@@ -164,6 +164,7 @@
     border-radius: 50%;
     padding: 5px;
     width: 0;
+    height: 0;
 }
 
 #app .window .titlebar .button:not(:last-child) {
@@ -177,23 +178,50 @@
 
 
 #app .app-skills .skills-container {
-    border-top-width: 1px;
-    border-top-style: solid;
     width: 100%;
 }
+@media screen and (max-width: 763px) {
+    #app .app-skills .skills-container {
+        border: none;
+    }
+    #app .app-skills .skills-container .marker {
+        margin-top: 17px;
+        margin-right: 17px;
+    }
+    #app .app-skills .skills-container .category {
+        margin-top: 14px;
+    }
+    #app .app-skills .skills-container .skill:not(:last-child)::after {
+        content: ",";
+    }
+}
 
-#app .app-skills .skills-container .marker {
-    position: relative;
-    top: -3px;
+@media screen and (min-width: 764px) {
+    #app .app-skills .skills-container {
+
+        border-top-width: 1px;
+        border-top-style: solid;
+    }
+    #app .app-skills .skills-container .marker {
+        position: relative;
+        top: -3px;
+    }
+    #app .app-skills .skills-container .category {
+        margin-top: 9px;
+    }
+
+
+
 }
 
 #app .app-skills .skills-container .category {
-    margin-top: 9px;
+
     margin-bottom: 19px;
     border-bottom-width: 1px;
     border-bottom-style: dashed;
     font-size: .9em;
     font-weight: bolder;
+    white-space: nowrap;
 }
 
 #app .app-skills .skills-container .skill {

@@ -139,7 +139,6 @@ div.centered,
     .flex.flex-row.flexible {
         flex-direction: column;
     }
-
     .flex.flex-col.flexible {
         flex-direction: row;
     }
@@ -154,7 +153,6 @@ div.centered,
     .flex.flex-row.flexible {
         flex-direction: column;
     }
-
     .flex.flex-col.flexible {
         flex-direction: row;
     }
