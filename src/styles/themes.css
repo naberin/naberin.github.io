@@ -143,9 +143,8 @@
     background-color: #ffea00;
 }
 
-#app.amethyst-theme .app-hero .title .name {
-    border-bottom-color: #6200ff;
-}
+#app.amethyst-theme .app-skills .skills-container,
+#app.amethyst-theme .app-hero .title .name,
 #app.amethyst-theme .window {
     border-color: #6200ff;
 }
@@ -154,56 +153,67 @@
     box-shadow: 0 2px 5px #0e0036;
 }
 
-    /* Winter Spruce */
+    /* Sundown Spruce */
 
 
-#app.winter-spruce-theme .app-themes .message .theme-count,
-#app.winter-spruce-theme .app-hero .title .name,
-#app.winter-spruce-theme .app-themes .title,
-#app.winter-spruce-theme .app-themes .themes-list .theme:hover,
-#app.winter-spruce-theme .app-skills .skills-container .category {
+#app.sundown-theme  .app-themes .themes-list .theme .color {
+    border-color: #ddd;
+}
+#app.sundown-theme .app-skills .skills-container .category {
+    color: #c9bca7;
+}
+
+#app.sundown-theme .app-themes .message .theme-count,
+#app.sundown-theme .app-hero .title .name,
+#app.sundown-theme .app-themes .title,
+#app.sundown-theme .app-themes .themes-list .theme:hover {
     color: #ddd;
 }
 
-#app.winter-spruce-theme .app-navigation .app-button:hover,
-#app.winter-spruce-theme .app-navigation .app-button:active,
-#app.winter-spruce-theme .app-navigation .app-button.router-link-exact-active,
-#app.winter-spruce-theme .app-header button.app-button,
-#app.winter-spruce-theme .app-about .summary,
-#app.winter-spruce-theme {
-    color: #a6a090;
+#app.sundown-theme .app-navigation .app-button:hover,
+#app.sundown-theme .app-navigation .app-button:active,
+#app.sundown-theme .app-navigation .app-button.router-link-exact-active,
+#app.sundown-theme .app-header button.app-button,
+#app.sundown-theme .app-about .summary,
+#app.sundown-theme {
+    color: #c9bca7;
 }
-#app.winter-spruce-theme button {
+
+#app.sundown-theme button {
     background-color: #e0d1bf;
 }
 
-#app.winter-spruce-theme .app-navigation .app-button {
-    color: #7f9021;
+
+#app.sundown-theme .app-skills .skills-container {
+    border-color: #d27b56;
+}
+#app.sundown-theme .app-navigation .app-button {
+    color: #d27b56;
 }
 
-#app.winter-spruce-theme .app-header button.app-button,
-#app.winter-spruce-theme {
-    background: linear-gradient(to bottom right, #314847, #264a54);
-}
-#app.winter-spruce-theme  .app-themes .themes-list .theme .color {
-    border-color: #292929;
+#app.sundown-theme .app-header button.app-button,
+#app.sundown-theme {
+    background: linear-gradient(to bottom right, #6b5040, #1b3854);
 }
 
-#app.winter-spruce-theme .app-skills .marker,
-#app.winter-spruce-theme footer {
-    background-color: #fff;
+#app.sundown-theme .app-skills .marker,
+#app.sundown-theme footer {
+    background-color: #ffcab4;
 }
 
-#app.winter-spruce-theme .buttons-listing .app-button {
+#app.sundown-theme .buttons-listing .app-button {
     background-color: #813aef;
 }
 
-#app.winter-spruce-theme .app-hero .title .name,
-#app.winter-spruce-theme .app-skills .skills-container,
-#app.winter-spruce-theme .window {
+#app.sundown-theme .app-hero .title .name {
     border-color: #cbb98f;
 }
-#app.winter-spruce-theme .window {
+
+#app.sundown-theme .window {
+    border-color: #1b3854;
+}
+
+#app.sundown-theme .window {
     box-shadow: 0 2px 5px #292929;
 }
 

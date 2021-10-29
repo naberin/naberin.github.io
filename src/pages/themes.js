@@ -11,13 +11,19 @@ let Themes = Vue.component('Themes', {
                 {name:"polar-bear", value:"polar-bear-theme", color: "#ffffff"},
                 {name:"cavendish", value:"cavendish-theme", color: "#dd9603"},
                 {name:"amethyst", value:"amethyst-theme", color: "#8256f3"},
-                {name: "winter-spruce", value: "winter-spruce-theme", color: "#314847"}
+                {name: "sundown", value: "sundown-theme", color: ["#6b5040", "#1b3854"]}
             ]
         }
     },
     methods: {
         setTheme(selection) {
             this.$emit('set-theme', selection)
+        },
+        setBackgroundColor(color) {
+            if (Array.isArray(color)) {
+                return {background: `linear-gradient(to bottom right, ${color[0]}, ${color[1]})`}
+            }
+            return {backgroundColor: color}
         }
     },
     template: `
@@ -30,7 +36,7 @@ let Themes = Vue.component('Themes', {
             </p>
             <div class="themes-list">
                 <div v-for="the in themes" class="theme flex flex-row" @click="setTheme(the.value)">
-                    <div :style='{backgroundColor: the.color}' class="color"></div>
+                    <div :style='[setBackgroundColor(the.color)]' class="color"></div>
                     <div class="name">{{the.name}} <span v-if="the.value === theme">(current)</span></div>
                 </div>
             </div>

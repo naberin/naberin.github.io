@@ -13,7 +13,7 @@ const router = new VueRouter({
 
 var app = new Vue({
    data: {
-      theme: "cavendish-theme",
+      theme: "sundown-theme",
       projects: [],
       info: {
          firstname:        "Norman", 
