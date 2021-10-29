@@ -18,7 +18,17 @@
     padding-bottom: 9px;
 }
 
-#app .contact-links,
+#app .contact-links {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 59px;
+    font-size: 1.5em;
+}
+#app .contact-links a:not(:last-child) {
+    margin-right: 19px;
+}
+
 #app .app-themes .message .theme-count,
 #app .app-header .title {
     font-family: 'Times', sans-serif;
