@@ -4,43 +4,21 @@ let Projects = Vue.component('Projects', {
     },
     data() {
         return {
-            projectName: "",
-            projectDetails: ""
+            selected: null,
         }
     },
-    methods: {
-        clear: function() {
-            this.projectName = "";
-            this.projectDetails = "";
-        },
-        addProject: function () {
-            let newProject = {
-                "name": this.projectName,
-                "details": this.projectDetails
-            };
-            this.$emit('add-project', newProject);
-            this.clear();
-        }
+    mounted() {
     },
     template: `
     <section class="page app-projects">
         <div class="container">
             <mac-window>
-                <div class="list-app flex flex-row flexible">
-                    <div class="projects-form flex-grow-4 flex flex-col">
-                        <div class="message flex flex-col centered">
-                            <span class="title"><i class="fas fa-shapes"></i> Project List</span>
-                            <span class="description">The list may be currently <strong>unavailable</strong>. Temporarily, here is a form and list for creating and managing Project entries.</span>
-                        </div>
-                        <div class="form-controls flex flex-col centered">
-                            <input placeholder="Project Name" v-model="projectName">
-                            <textarea placeholder="Details" v-model="projectDetails"></textarea>
-                            <button class="app-button add" @click="addProject()"><i class="fas fa-plus"></i> Add</button>
-                        </div>
-                        
-                    </div>  
-                    <div class="flex-grow-6"></div>
+            
+                <div class="unavailable center">
+                                The list of projects may be currently <strong>unavailable.</strong>
                 </div>
+
+            
             </mac-window>
         </div>
     </section>

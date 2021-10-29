@@ -40,9 +40,6 @@ var app = new Vue({
       setTheme: function(theme) {
          this.theme = theme;
       },
-      addProject: function(project) {
-         this.projects.push(project);
-      }
    },
    router
 }).$mount("#app")
