@@ -133,7 +133,7 @@ div.centered,
 
 @media screen and (max-width: 399px) {
     .container {
-        width: 97%;
+        width: 95%;
     }
 
     .flex.flex-row.flexible {
@@ -148,7 +148,7 @@ div.centered,
 }
 @media screen and (min-width: 400px) {
     .container {
-        width: 95%;
+        width: 93%;
     }
     .flex.flex-row.flexible {
         flex-direction: column;
@@ -164,7 +164,7 @@ div.centered,
 
 @media screen and (min-width: 512px) {
     .container {
-        width: 92%;
+        width: 91%;
     }
     .flex.flex-row.flexible {
         flex-direction: column;
