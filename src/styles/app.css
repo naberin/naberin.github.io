@@ -32,6 +32,7 @@
 #app .app-main .app-hero .introduction .description {
     font-size: 1.2em;
     font-weight: lighter;
+    line-height: 1.2;
     color: #d0bb8a;
 }
 
@@ -53,7 +54,13 @@
     color: #fff;
 }
 
+#app .app-header .app-navigation .link:not(:first-child) {
+    padding-left: 6px;
+    border-left: 1px solid #cfcfcf;
+}
+
 #app .app-header .app-navigation .link:not(:last-child) {
-    margin-right: 12px;
+    margin-right: 6px;
+
 }
 
