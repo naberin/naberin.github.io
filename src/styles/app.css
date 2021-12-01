@@ -21,3 +21,22 @@
 }
 
 /* header */
+#app .app-header {
+    padding: 9px 0;
+}
+
+#app .app-header,
+#app .app-header .app-navigation {
+    color: #cfcfcf;
+}
+
+#app .app-header > .title,
+#app .app-header .app-navigation .link:hover,
+#app .app-header .app-navigation .link.current {
+    color: #fff;
+}
+
+#app .app-header .app-navigation .link:not(:last-child) {
+    margin-right: 12px;
+}
+
