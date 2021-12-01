@@ -4,6 +4,7 @@ let Home = Vue.component('Home', {
     },
     template: `
     <section class="page app-home flex flex-col">
+        <app-hero :info="info"></app-hero>
     </section>
     `
 });
