@@ -11,9 +11,9 @@
 
 </head>
 <body>
-  <div id="app" :class="[theme, '']">
+  <div id="app" :class="[theme, 'flex flex-col']">
 
-    <main class="app-main flex-grow-9 flex flex-col">
+    <main class="app-main flex-grow-10">
           <router-view :info="info" :theme="theme" @set-theme="setTheme" :projects="projects"></router-view>
     </main>
 
