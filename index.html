@@ -13,10 +13,8 @@
 <body>
   <div id="app" :class="[theme, '']">
 
-    <app-header class="flex-grow-1" :title="info.handle"></app-header>
-
-    <main class="app-main flex-grow-9">
-      <router-view :info="info" :theme="theme" @set-theme="setTheme" :projects="projects"></router-view>
+    <main class="app-main flex-grow-9 flex flex-col">
+          <router-view :info="info" :theme="theme" @set-theme="setTheme" :projects="projects"></router-view>
     </main>
 
   </div>
