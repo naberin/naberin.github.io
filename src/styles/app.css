@@ -76,7 +76,6 @@
 }
 
 #app .project-description .title,
-#app .app-hero .title,
 #app .app-themes .title {
     font-weight: bolder;
     font-size: 3.6em;
@@ -232,9 +231,6 @@
     background: linear-gradient(to bottom right, rgba(23, 60, 96, 0.7), rgb(19, 46, 73));
 }
 
-#app .app-main .page.app-home .app-hero .cover > * {
-    height: 100%;
-}
 
 #app .app-main .page.app-home .app-hero .introduction {
     padding: 20px 0;
