@@ -8,6 +8,12 @@ Vue.component('app-hero', {
             <container>
                 <app-header :info="info" :title="info.handle"/>
             </container>
+            <div class="wrapper max-height flex flex-col flex-justify-center">
+                <container>
+                    <app-introduction :info="info" class="flex-grow-9 flex flex-col flex-justify-center"/>
+                </container>
+               
+            </div>
         </cover>
     </div>
     `

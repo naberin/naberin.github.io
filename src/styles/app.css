@@ -20,8 +20,25 @@
     background-size: auto;
 }
 
-/* header */
+#app .app-main .app-hero .wrapper {
+    padding: 12px 0;
+    overflow-y: scroll;
+}
+
+#app .app-main .app-hero .introduction .title {
+    font-size: 2.1em;
+    color: #fff;
+}
+#app .app-main .app-hero .introduction .description {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #d0bb8a;
+}
+
+
+    /* header */
 #app .app-header {
+    font-size: 1.2em;
     padding: 9px 0;
 }
 

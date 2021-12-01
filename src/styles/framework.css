@@ -50,6 +50,10 @@ button:hover {
     align-self: center;
 }
 
+.max-height {
+    height: 100%;
+}
+
 .flex {
     display: flex;
 }

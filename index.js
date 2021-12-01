@@ -21,9 +21,8 @@ var app = new Vue({
          jobTitle:         "Full Stack Software Engineer",
          company:          "Oracle",
          description:      `
-            I am a Software Engineer with a strong interest and experience in <strong>cloud native development.</strong> 
-            In my projects, I focus and seek to learn more about good software design, reliability and user-experience. 
-            I am versatile, open-minded and a good team player.`,
+            a versatile and driven Software Engineer with a strong interest and experience in <strong>cloud native development.</strong>
+        `,
          skills:           {
             "Languages":   ["Java", "Python", "Javascript", "HTML", "CSS"],
             "Frontend":    ["Vue.js", "React.js"],
