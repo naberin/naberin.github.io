@@ -6,10 +6,9 @@ let Home = Vue.component('Home', {
     <section class="page app-home flex flex-col">
         <section class="app-hero">
             <div class="cover">
-                <div class="container">
-                <app-hero :info="info" class="flex-grow-2"> </app-hero>
+                <div class="container flex flex-col">
+                    <app-hero :info="info" class="flex-grow-4"> </app-hero>
                 </div>
-            
             </div>
         
         </section>

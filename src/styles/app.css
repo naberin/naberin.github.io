@@ -4,8 +4,7 @@
     overflow: scroll;
 }
 
-#app .app-main,
-#app .app-main .page {
+#app .app-main {
     height: 100%;
 }
 
@@ -51,13 +50,8 @@
     margin: 9px;
 }
 
-#app .app-main {
-    padding-bottom: 45px;
-}
-
 #app .app-hero,
 #app .app-themes {
-    padding-top: 96px;
     margin: 0 auto;
 }
 
@@ -91,15 +85,6 @@
     display: inline-block;
     border-bottom-width: 28px;
     border-bottom-style: solid;
-}
-
-#app .app-hero .current {
-    margin: 7px auto;
-    max-width: 388px;
-}
-#app .app-hero .current span{
-    padding-top: 4px;
-    padding-bottom: 4px;
 }
 
 #app .app-hero .current,
@@ -176,10 +161,11 @@
     padding-bottom: 39px;
 }
 
-
+#app .app-main .page.app-home .app-hero,
 #app .app-skills .skills-container {
     width: 100%;
 }
+
 @media screen and (max-width: 763px) {
     #app .app-skills .skills-container {
         border: none;
@@ -224,6 +210,7 @@
     white-space: nowrap;
 }
 
+*,
 #app .app-skills .skills-container .skill {
     font-family: 'Roboto Light', sans-serif;
     font-weight: lighter;
@@ -231,4 +218,25 @@
 
 #app .app-skills .skills-container .skill {
     padding: 4px;
+}
+
+#app .app-main .page.app-home .app-hero {
+    background: url("../images/pexels-anni-roenkae-2832432.jpg") no-repeat bottom center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#app .app-main .page.app-home .app-hero .cover {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom right, rgba(23, 60, 96, 0.7), rgb(19, 46, 73));
+}
+
+#app .app-main .page.app-home .app-hero .cover > * {
+    height: 100%;
+}
+
+#app .app-main .page.app-home .app-hero .introduction {
+    padding: 20px 0;
+    height: 100%;
 }

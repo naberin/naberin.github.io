@@ -16,8 +16,8 @@ var app = new Vue({
       theme: "cavendish-theme",
       projects: [],
       info: {
-         firstname:        "Norman", 
-         lastname:         "Aberin",
+         firstname:        "norman",
+         lastname:         "aberin",
          handle:           "naberin",
          jobTitle:         "Full Stack Software Engineer",
          company:          "Oracle",
