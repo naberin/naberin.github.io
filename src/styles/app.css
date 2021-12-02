@@ -36,6 +36,7 @@
     font-size: 1.2em;
     line-height: 1.2;
     color: #e8d3a4;
+    border-radius: 0 9px 9px 0;
 }
 
 
@@ -56,9 +57,78 @@
     }
 }
 
+/* home - app-hero - links listing */
+#app .app-main .app-hero .links-listing {
+    width: max-content;
+    margin-top: 40px;
+    padding: 40px 39px 20px 0;
+    background-color: #f8b31e;
+}
+
+#app .app-main .app-hero .links-listing .link:not(:last-child) {
+    margin-right: 9px;
+
+}
+#app .app-main .app-hero .links-listing .link:not(:first-child) {
+    border-left: 1px solid #292929;
+    padding-left: 9px;
+}
+
+@media screen and (max-width: 399px) {
+    #app .app-main .app-hero .links-listing {
+        padding-left: 5%;
+    }
+}
+@media screen and (min-width: 400px) {
+    #app .app-main .app-hero .links-listing {
+        padding-left: 7%;
+    }
+}
+
+
+@media screen and (min-width: 512px) {
+    #app .app-main .app-hero .links-listing {
+        padding-left: 8%;
+    }
+
+}
+
+@media screen and (min-width: 764px) {
+    #app .app-main .app-hero .links-listing {
+        padding-left: 10%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #app .app-main .app-hero .links-listing {
+        padding-left: 11%;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    #app .app-main .app-hero .links-listing {
+        padding-left: 12%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    #app .app-main .app-hero .links-listing {
+        padding-left: 12.5%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    #app .app-main .app-hero .links-listing {
+        padding-left: 13%;
+    }
+}
+
+
     /* header */
 #app .app-header {
     font-size: 1.2em;
+    margin-top: 20px;
     padding: 9px 0;
 }
 
