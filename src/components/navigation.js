@@ -7,7 +7,7 @@ Vue.component('app-navigation', {
     data(){
         return {
             links: [
-                {id: 1, path: 'about me', name: "about", icon: ``, to: "/skills"},
+                {id: 1, path: 'about', name: "about", icon: ``, to: "/about"},
                 {id: 2, path: 'projects', name: "projects", icon: ``, to: "/projects"},
                 {id: 3, path: 'resume', name: "resume", icon: ``, to: "/themes"}
             ]
