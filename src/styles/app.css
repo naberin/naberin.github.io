@@ -62,6 +62,7 @@
     width: max-content;
     margin-top: 40px;
     padding: 40px 39px 20px 0;
+    border-radius: 0 9px 9px 0;
     background-color: #f8b31e;
 }
 
