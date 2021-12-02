@@ -137,7 +137,7 @@ div.centered,
 
 @media screen and (max-width: 399px) {
     .container {
-        width: 95%;
+        width: 90%;
     }
 
     .flex.flex-row.flexible {
@@ -152,7 +152,7 @@ div.centered,
 }
 @media screen and (min-width: 400px) {
     .container {
-        width: 93%;
+        width: 85%;
     }
     .flex.flex-row.flexible {
         flex-direction: column;
@@ -168,7 +168,7 @@ div.centered,
 
 @media screen and (min-width: 512px) {
     .container {
-        width: 91%;
+        width: 83%;
     }
     .flex.flex-row.flexible {
         flex-direction: column;
@@ -185,7 +185,7 @@ div.centered,
 
 @media screen and (min-width: 764px) {
     .container {
-        width: 89%;
+        width: 80%;
     }
     .flex.flex-row.flexible {
         flex-direction: row;
@@ -201,7 +201,7 @@ div.centered,
 
 @media screen and (min-width: 992px) {
     .container {
-        width: 86%;
+        width: 78%;
     }
     .flex.flex-row.flexible {
         flex-direction: row;
@@ -218,7 +218,7 @@ div.centered,
 
 @media screen and (min-width: 1200px) {
     .container {
-        width: 83%;
+        width: 76%;
     }
     .flex.flex-row.flexible {
         flex-direction: row;
@@ -234,7 +234,7 @@ div.centered,
 
 @media screen and (min-width: 1500px) {
     .container {
-        width: 80%;
+        width: 75%;
     }
     .flex.flex-row.flexible {
         flex-direction: row;
@@ -250,7 +250,7 @@ div.centered,
 
 @media screen and (min-width: 1900px) {
     .container {
-        width: 77%;
+        width: 74%;
     }
     .flex.flex-row.flexible {
         flex-direction: row;
