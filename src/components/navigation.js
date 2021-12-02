@@ -8,7 +8,6 @@ Vue.component('app-navigation', {
         return {
             links: [
                 {id: 1, path: 'about', name: "about", icon: ``, to: "/about"},
-                {id: 2, path: 'projects', name: "projects", icon: ``, to: "/projects"},
                 {id: 3, path: null, name: "resume", icon: ``, to: "https://drive.google.com/file/d/1h3RAfZbvLuMhZs11tN_m4tfJ-nxZSsSe/view?usp=sharing"}
             ]
         }

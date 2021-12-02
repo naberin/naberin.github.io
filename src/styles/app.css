@@ -4,6 +4,14 @@
     font-family: 'Roboto Light', sans-serif;
 }
 
+.padding-sm-top {
+    padding-top: 20px;
+}
+#app .app-main .links-listing .link:hover,
+#app .app-main .app-hero .app-navigation .link:hover {
+    cursor: pointer;
+}
+
 #app .app-hero .cover {
     height: 100vh;
     width: 100%;
@@ -126,10 +134,9 @@
 }
 
 
-    /* header */
+/* header */
 #app .app-header {
     font-size: 1.2em;
-    margin-top: 20px;
     padding: 9px 0;
 }
 
@@ -154,3 +161,10 @@
 
 }
 
+/* home - app-about */
+#app .app-main .app-about {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-color: #292929;
+}

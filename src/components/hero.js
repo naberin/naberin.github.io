@@ -5,7 +5,8 @@ Vue.component('app-hero', {
     template: `
     <div class="app-hero">
         <cover class="flex flex-col">
-            <container>
+            <container class="padding-sm-top">
+              
                 <app-header :info="info" :title="info.handle"/>
             </container>
             <div class="wrapper max-height flex flex-col flex-justify-center">
