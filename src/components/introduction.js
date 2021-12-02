@@ -4,7 +4,7 @@ Vue.component('app-introduction', {
     },
     template: `
     <div class="introduction">
-        <div class="title">{{ info.firstname }} {{ info.lastname }}</div>
+        <span class="title">{{ info.firstname }} {{ info.lastname }}</span>
         <div class="description" v-html="info.description"></div>
     </div>
     `

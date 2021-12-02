@@ -27,15 +27,35 @@
 
 #app .app-main .app-hero .introduction .title {
     font-size: 2.1em;
+    font-weight: bolder;
+    width: max-content;
+    border-bottom: 1px dashed #f8b31e;
     color: #fff;
 }
 #app .app-main .app-hero .introduction .description {
+    margin-top: 4px;
     font-size: 1.2em;
-    font-weight: lighter;
     line-height: 1.2;
-    color: #d0bb8a;
+    color: #e8d3a4;
 }
 
+
+@media screen and (max-width: 764px) {
+    #app .app-main .app-hero .introduction .description {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 765px) {
+    #app .app-main .app-hero .introduction .description {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #app .app-main .app-hero .introduction .description {
+        width: 60%;
+    }
+}
 
     /* header */
 #app .app-header {
