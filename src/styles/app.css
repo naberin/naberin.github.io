@@ -30,6 +30,14 @@
 #app .app-main .app-hero .wrapper {
     padding: 12px 0;
     overflow-y: scroll;
+
+    /* hide scrollbar */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#app .app-main .app-hero .wrapper::-webkit-scrollbar {
+    display: none;
 }
 
 #app .app-main .app-hero .introduction .title {
