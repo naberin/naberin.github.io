@@ -139,6 +139,9 @@
     #app .app-main .app-hero .links-listing {
         padding-left: 13%;
     }
+    #app .app-main .app-hero {
+        background-size: cover;
+    }
 }
 
 
